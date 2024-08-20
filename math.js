@@ -1,7 +1,7 @@
 
 function add(a, b){
     let soma = a+b;
-    return soma;
+    return parseFloat(soma.toFixed(2));
 }
 
 

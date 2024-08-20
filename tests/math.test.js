@@ -11,3 +11,7 @@ const math = require('../math');
     test('soma 1.1 + 3 igual a 4.1', () => { 
         expect(math.add(1.1, 3)).toBe(4.1); 
     }); 
+
+    test('soma 1.4 + 1.45 igual a 2.85', () => { 
+        expect(math.add(1.4, 1.45)).toBe(2.85); 
+    }); 
